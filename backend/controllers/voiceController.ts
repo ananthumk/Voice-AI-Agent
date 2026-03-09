@@ -8,7 +8,7 @@ import { textToSpeech } from "../../services/text_to_speech/elevenlabs"
 
 export const handleVoice = async(req:Request,res:Response)=>{
 
- const audio=req.file?.path!
+ const audio=(req as any).file?.path!
 
  const transcript = await speechToText(audio)
 
