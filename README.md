@@ -103,12 +103,6 @@ Clone the repository:
 git clone https://github.com/ananthumk/voice-ai-agent.git
 ```
 
-Navigate to the project directory:
-
-```bash
-cd voice-ai-agent
-```
-
 Install dependencies:
 
 ```bash
