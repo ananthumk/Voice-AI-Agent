@@ -1,37 +1,30 @@
 {
-  "name": "vocie-ai-ageent",
+  "name": "voice-ai-agent",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Voice AI Agent backend",
+  "main": "dist/backend/server.js",
   "scripts": {
     "build": "tsc",
-    "start": "node backend/server.js",
+    "start": "node dist/backend/server.js",
     "dev": "ts-node backend/server.ts"
-  }
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@deepgram/sdk": "^3.13.0",
-    "axios": "^1.13.6",
-    "dotenv": "^17.3.1",
-    "elevenlabs": "^1.59.0",
-    "express": "^5.2.1",
-    "franc": "^6.2.0",
-    "mongoose": "^9.2.4",
-    "multer": "^2.1.1",
-    "openai": "^6.27.0",
-    "redis": "^5.11.0",
-    "ws": "^8.19.0"
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "deepgram": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "elevenlabs": "^1.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "multer": "^1.4.5"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/multer": "^2.1.0",
-    "@types/node": "^25.3.5",
-    "@types/ws": "^8.18.1",
-    "nodemon": "^3.1.14",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.0.0"
   }
 }
